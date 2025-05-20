@@ -88,6 +88,151 @@
 </section>
 <footer>
   <p>Erstellt als kurze Einf&uuml;hrung in GitHub.</p>
+=======
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GitHub Guide</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+    <h1>GitHub Guide</h1>
+    <p class="subtitle">Eine anschauliche Einf&uuml;hrung und wie Codex damit arbeitet</p>
+</header>
+<main>
+    <section id="commands">
+        <h2>Grundlegende Begriffe</h2>
+        <div class="accordion">
+            <div class="accordion-item">
+                <button class="accordion-header">Clone</button>
+                <div class="accordion-content">
+                    <p>Mit <code>git clone &lt;URL&gt;</code> holst du ein Repository auf deinen Rechner.</p>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <button class="accordion-header">Commit</button>
+                <div class="accordion-content">
+                    <p>Ein Commit speichert deine &Auml;nderungen. Verwende <code>git commit -m &quot;Nachricht&quot;</code>.</p>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <button class="accordion-header">Push</button>
+                <div class="accordion-content">
+                    <p>Mit <code>git push</code> l&auml;dst du deine Commits zu GitHub hoch.</p>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <button class="accordion-header">Pull</button>
+                <div class="accordion-content">
+                    <p><code>git pull</code> holt neue &Auml;nderungen vom Remote-Repository.</p>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <button class="accordion-header">Branch</button>
+                <div class="accordion-content">
+                    <p>Ein Branch ist ein paralleler Entwicklungszweig. Erstelle ihn mit <code>git checkout -b mein-branch</code>.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="workflow">
+        <h2>Typischer Git-Workflow</h2>
+        <div class="timeline">
+            <div class="step">
+                <div class="circle">1</div>
+                <p>Repository klonen</p>
+            </div>
+            <div class="step">
+                <div class="circle">2</div>
+                <p>Dateien bearbeiten und committen</p>
+            </div>
+            <div class="step">
+                <div class="circle">3</div>
+                <p>Commits zu GitHub pushen</p>
+            </div>
+            <div class="step">
+                <div class="circle">4</div>
+                <p>Neues vom Remote mit pull holen</p>
+            </div>
+            <div class="step">
+                <div class="circle">5</div>
+                <p>Branches &amp; Pull Requests verwenden</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="codex">
+        <h2>Wie Codex GitHub nutzt</h2>
+        <ol class="codex-flow">
+            <li>Repo klonen oder aktualisieren</li>
+            <li>Neuen Branch anlegen und Dateien anpassen</li>
+            <li>Tests ausf&uuml;hren und Ergebnisse sammeln</li>
+            <li>Commit erstellen und Branch pushen</li>
+            <li>Pull Request erzeugen und Zusammenfassung liefern</li>
+        </ol>
+    </section>
+</main>
+<footer>
+    <p>Erstellt als anschauliche Einf&uuml;hrung in GitHub.</p>
+</footer>
+=======
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>GitHub Grundlagen</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<h1>GitHub leicht erkl&auml;rt</h1>
+<p>Diese kurze Seite gibt einen &Uuml;berblick &uuml;ber grundlegende Begriffe und die Arbeitsweise von Codex.</p>
+
+<section>
+<h2>Was ist GitHub?</h2>
+<p>GitHub ist ein Hosting-Service f&uuml;r Git-Repositories. Git selbst ist ein verteiltes Versionskontrollsystem, mit dem du den Entwicklungsstand deiner Dateien &uuml;ber Commits festh&auml;ltst.</p>
+</section>
+
+<section>
+<h2>Wichtige Befehle</h2>
+<ul>
+<li><strong>clone</strong>: Erstellt eine lokale Kopie eines Git-Repositories von einem Server.</li>
+<li><strong>commit</strong>: H&auml;lt eine &Auml;nderung im Repository fest.</li>
+<li><strong>push</strong>: &Uuml;bertr&auml;gt lokale Commits zu einem entfernten Repository, z.&nbsp;B. auf GitHub.</li>
+<li><strong>pull</strong>: Holt neue &Auml;nderungen vom Remote-Repository und integriert sie in dein lokales.</li>
+<li><strong>branch</strong>: Ein unabh&auml;ngiger Entwicklungsstrang. Mit <code>git checkout -b neuer-branch</code> erstellst du einen neuen Branch.</li>
+</ul>
+</section>
+
+<section>
+<h2>Typischer Ablauf</h2>
+<ol>
+<li>Repository klonen: <code>git clone &lt;URL&gt;</code></li>
+<li>Dateien &auml;ndern und &uuml;ber <code>git add</code> zur n&auml;chsten Commit vorbereiten.</li>
+<li>Mit <code>git commit</code> die &Auml;nderungen speichern.</li>
+<li>Mit <code>git push</code> die Commits zu GitHub hochladen.</li>
+<li>Um neue &Auml;nderungen anderer einzuholen, <code>git pull</code> verwenden.</li>
+</ol>
+</section>
+
+<section>
+<h2>Branches und Pull Requests</h2>
+<p>Branches erlauben parallele Entwicklung, ohne die Hauptversion zu st&ouml;ren. &Auml;nderungen eines Branches werden &uuml;ber einen <em>Pull Request</em> (PR) in den Hauptbranch integriert.</p>
+</section>
+
+<section>
+<h2>Wie Codex damit arbeitet</h2>
+<p>Wenn du Codex einen Task gibst, interagiert es mit einem Git-Repository etwa folgenderma&szlig;en:</p>
+<ol>
+<li><strong>Klone</strong> das Repository (falls nicht schon lokal vorhanden).</li>
+<li>Erstelle oder verwende einen Branch, um die gew&uuml;nschten Dateien zu bearbeiten.</li>
+<li>F&uuml;hre m&ouml;gliche Tests aus und sammle die Ausgabe.</li>
+<li><strong>Commit</strong>e die &Auml;nderungen mit einer passenden Nachricht.</li>
+<li><strong>Push</strong>e diesen Branch zu GitHub und erstelle dort (falls gew&uuml;nscht) einen Pull Request.</li>
+<li>Codex gibt dir typischerweise eine Zusammenfassung der Schritte, inkl. evtl. Testergebnisse.</li>
+</ol>
+</section>
+
+<footer>
+<p>Erstellt f&uuml;r eine kurze Einf&uuml;hrung in GitHub und das Zusammenspiel mit Codex.</p>
 </footer>
 <script src="script.js"></script>
 </body>
