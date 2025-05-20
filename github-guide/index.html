@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>GitHub Guide</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+  <h1>Interaktiver GitHub-Guide</h1>
+  <p>Ein kurzer, anschaulicher Einstieg in GitHub und wie Codex damit arbeitet.</p>
+</header>
+<section>
+  <h2>Grundbegriffe</h2>
+  <div class="accordion">
+    <div class="item">
+      <button class="title">clone</button>
+      <div class="content">
+        <p>Erstellt eine lokale Kopie eines Repositories.</p>
+      </div>
+    </div>
+    <div class="item">
+      <button class="title">commit</button>
+      <div class="content">
+        <p>Speichert deine &Auml;nderungen als neuen Versionsschritt.</p>
+      </div>
+    </div>
+    <div class="item">
+      <button class="title">push</button>
+      <div class="content">
+        <p>&Uuml;bertr&auml;gt Commits zu GitHub oder einem anderen Remote.</p>
+      </div>
+    </div>
+    <div class="item">
+      <button class="title">pull</button>
+      <div class="content">
+        <p>Holt neue &Auml;nderungen vom Remote-Repository.</p>
+      </div>
+    </div>
+    <div class="item">
+      <button class="title">branch</button>
+      <div class="content">
+        <p>Ein separater Entwicklungszweig f&uuml;r neue Features.</p>
+      </div>
+    </div>
+  </div>
+</section>
+<section>
+  <h2>Typischer Workflow</h2>
+  <div class="timeline">
+    <div class="step">
+      <svg viewBox="0 0 24 24" class="icon"><circle cx="12" cy="12" r="10" fill="#4caf50"/></svg>
+      <p>1. Repository klonen</p>
+    </div>
+    <div class="step">
+      <svg viewBox="0 0 24 24" class="icon"><rect x="4" y="4" width="16" height="16" fill="#2196f3"/></svg>
+      <p>2. &Auml;nderungen committen</p>
+    </div>
+    <div class="step">
+      <svg viewBox="0 0 24 24" class="icon"><polygon points="12,2 22,22 2,22" fill="#ff9800"/></svg>
+      <p>3. Branch pushen und PR stellen</p>
+    </div>
+  </div>
+</section>
+<section>
+  <h2>Wie Codex arbeitet</h2>
+  <div class="accordion">
+    <div class="item">
+      <button class="title">Repository vorbereiten</button>
+      <div class="content">
+        <p>Codex klont das Repo und legt einen Branch an.</p>
+      </div>
+    </div>
+    <div class="item">
+      <button class="title">Task ausf&uuml;hren</button>
+      <div class="content">
+        <p>Die geforderten Dateien werden angepasst und Tests ausgef&uuml;hrt.</p>
+      </div>
+    </div>
+    <div class="item">
+      <button class="title">Ergebnis hochladen</button>
+      <div class="content">
+        <p>Codex committed die &Auml;nderungen und erstellt einen Pull Request.</p>
+      </div>
+    </div>
+  </div>
+</section>
+<footer>
+  <p>Erstellt als kurze Einf&uuml;hrung in GitHub.</p>
+</footer>
+<script src="script.js"></script>
+</body>
+</html>
