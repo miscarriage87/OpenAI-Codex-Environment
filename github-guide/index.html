@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GitHub Guide</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+    <h1>GitHub Guide</h1>
+    <p class="subtitle">Eine anschauliche Einf&uuml;hrung und wie Codex damit arbeitet</p>
+</header>
+<main>
+    <section id="commands">
+        <h2>Grundlegende Begriffe</h2>
+        <div class="accordion">
+            <div class="accordion-item">
+                <button class="accordion-header">Clone</button>
+                <div class="accordion-content">
+                    <p>Mit <code>git clone &lt;URL&gt;</code> holst du ein Repository auf deinen Rechner.</p>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <button class="accordion-header">Commit</button>
+                <div class="accordion-content">
+                    <p>Ein Commit speichert deine &Auml;nderungen. Verwende <code>git commit -m &quot;Nachricht&quot;</code>.</p>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <button class="accordion-header">Push</button>
+                <div class="accordion-content">
+                    <p>Mit <code>git push</code> l&auml;dst du deine Commits zu GitHub hoch.</p>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <button class="accordion-header">Pull</button>
+                <div class="accordion-content">
+                    <p><code>git pull</code> holt neue &Auml;nderungen vom Remote-Repository.</p>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <button class="accordion-header">Branch</button>
+                <div class="accordion-content">
+                    <p>Ein Branch ist ein paralleler Entwicklungszweig. Erstelle ihn mit <code>git checkout -b mein-branch</code>.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="workflow">
+        <h2>Typischer Git-Workflow</h2>
+        <div class="timeline">
+            <div class="step">
+                <div class="circle">1</div>
+                <p>Repository klonen</p>
+            </div>
+            <div class="step">
+                <div class="circle">2</div>
+                <p>Dateien bearbeiten und committen</p>
+            </div>
+            <div class="step">
+                <div class="circle">3</div>
+                <p>Commits zu GitHub pushen</p>
+            </div>
+            <div class="step">
+                <div class="circle">4</div>
+                <p>Neues vom Remote mit pull holen</p>
+            </div>
+            <div class="step">
+                <div class="circle">5</div>
+                <p>Branches &amp; Pull Requests verwenden</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="codex">
+        <h2>Wie Codex GitHub nutzt</h2>
+        <ol class="codex-flow">
+            <li>Repo klonen oder aktualisieren</li>
+            <li>Neuen Branch anlegen und Dateien anpassen</li>
+            <li>Tests ausf&uuml;hren und Ergebnisse sammeln</li>
+            <li>Commit erstellen und Branch pushen</li>
+            <li>Pull Request erzeugen und Zusammenfassung liefern</li>
+        </ol>
+    </section>
+</main>
+<footer>
+    <p>Erstellt als anschauliche Einf&uuml;hrung in GitHub.</p>
+</footer>
+<script src="script.js"></script>
+</body>
+</html>
