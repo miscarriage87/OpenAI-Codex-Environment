@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>GitHub Grundlagen</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<h1>GitHub leicht erkl&auml;rt</h1>
+<p>Diese kurze Seite gibt einen &Uuml;berblick &uuml;ber grundlegende Begriffe und die Arbeitsweise von Codex.</p>
+
+<section>
+<h2>Was ist GitHub?</h2>
+<p>GitHub ist ein Hosting-Service f&uuml;r Git-Repositories. Git selbst ist ein verteiltes Versionskontrollsystem, mit dem du den Entwicklungsstand deiner Dateien &uuml;ber Commits festh&auml;ltst.</p>
+</section>
+
+<section>
+<h2>Wichtige Befehle</h2>
+<ul>
+<li><strong>clone</strong>: Erstellt eine lokale Kopie eines Git-Repositories von einem Server.</li>
+<li><strong>commit</strong>: H&auml;lt eine &Auml;nderung im Repository fest.</li>
+<li><strong>push</strong>: &Uuml;bertr&auml;gt lokale Commits zu einem entfernten Repository, z.&nbsp;B. auf GitHub.</li>
+<li><strong>pull</strong>: Holt neue &Auml;nderungen vom Remote-Repository und integriert sie in dein lokales.</li>
+<li><strong>branch</strong>: Ein unabh&auml;ngiger Entwicklungsstrang. Mit <code>git checkout -b neuer-branch</code> erstellst du einen neuen Branch.</li>
+</ul>
+</section>
+
+<section>
+<h2>Typischer Ablauf</h2>
+<ol>
+<li>Repository klonen: <code>git clone &lt;URL&gt;</code></li>
+<li>Dateien &auml;ndern und &uuml;ber <code>git add</code> zur n&auml;chsten Commit vorbereiten.</li>
+<li>Mit <code>git commit</code> die &Auml;nderungen speichern.</li>
+<li>Mit <code>git push</code> die Commits zu GitHub hochladen.</li>
+<li>Um neue &Auml;nderungen anderer einzuholen, <code>git pull</code> verwenden.</li>
+</ol>
+</section>
+
+<section>
+<h2>Branches und Pull Requests</h2>
+<p>Branches erlauben parallele Entwicklung, ohne die Hauptversion zu st&ouml;ren. &Auml;nderungen eines Branches werden &uuml;ber einen <em>Pull Request</em> (PR) in den Hauptbranch integriert.</p>
+</section>
+
+<section>
+<h2>Wie Codex damit arbeitet</h2>
+<p>Wenn du Codex einen Task gibst, interagiert es mit einem Git-Repository etwa folgenderma&szlig;en:</p>
+<ol>
+<li><strong>Klone</strong> das Repository (falls nicht schon lokal vorhanden).</li>
+<li>Erstelle oder verwende einen Branch, um die gew&uuml;nschten Dateien zu bearbeiten.</li>
+<li>F&uuml;hre m&ouml;gliche Tests aus und sammle die Ausgabe.</li>
+<li><strong>Commit</strong>e die &Auml;nderungen mit einer passenden Nachricht.</li>
+<li><strong>Push</strong>e diesen Branch zu GitHub und erstelle dort (falls gew&uuml;nscht) einen Pull Request.</li>
+<li>Codex gibt dir typischerweise eine Zusammenfassung der Schritte, inkl. evtl. Testergebnisse.</li>
+</ol>
+</section>
+
+<footer>
+<p>Erstellt f&uuml;r eine kurze Einf&uuml;hrung in GitHub und das Zusammenspiel mit Codex.</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
