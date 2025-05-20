@@ -1,3 +1,8 @@
+document.querySelectorAll('.accordion .title').forEach(btn => {
+    btn.addEventListener('click', () => {
+        btn.classList.toggle('active');
+    });
+});
 // Einfaches Skript f&uuml;r die Akkordeon-Elemente
 
 function initAccordion() {
@@ -16,7 +21,6 @@ function initAccordion() {
 }
 
 document.addEventListener('DOMContentLoaded', initAccordion);
-=======
 // Kleines Skript, um zuk&uuml;nftig interaktive Elemente zu erg&auml;nzen.
 // Aktuell nur eine Konsolenausgabe zur Demonstration.
 console.log('GitHub-Guide geladen');
