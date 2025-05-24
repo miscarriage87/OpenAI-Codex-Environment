@@ -35,3 +35,14 @@ pytest
 ```
 
 from the project root to execute the suite.
+
+## GitHub Guide
+
+Alongside the converter apps, the folder `github-guide/` provides a short
+interactive tutorial on using Git and GitHub. The root `index.html` simply
+loads this guide in a full-page iframe. Open it in your browser for a quick
+overview of common commands and workflows.
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).
