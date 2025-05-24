@@ -24,3 +24,7 @@ A small web-based temperature converter is located in `temperature-web/`.
 Open `temperature-web/index.html` in your browser to use it. The page
 supports conversions in both directions and features a simple responsive
 design for a pleasant experience.
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).
