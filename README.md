@@ -24,3 +24,10 @@ A small web-based temperature converter is located in `temperature-web/`.
 Open `temperature-web/index.html` in your browser to use it. The page
 supports conversions in both directions and features a simple responsive
 design for a pleasant experience.
+
+## GitHub Guide
+
+Alongside the converter apps, the folder `github-guide/` provides a short
+interactive tutorial on using Git and GitHub. The root `index.html` simply
+loads this guide in a full-page iframe. Open it in your browser for a quick
+overview of common commands and workflows.
