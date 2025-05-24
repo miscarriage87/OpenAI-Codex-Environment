@@ -17,3 +17,10 @@ python3 app.py
 ```
 
 Follow the on-screen menu to perform conversions or exit the program.
+
+## Web Application
+
+A small web-based temperature converter is located in `temperature-web/`.
+Open `temperature-web/index.html` in your browser to use it. The page
+supports conversions in both directions and features a simple responsive
+design for a pleasant experience.
