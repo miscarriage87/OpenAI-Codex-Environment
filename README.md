@@ -25,6 +25,17 @@ Open `temperature-web/index.html` in your browser to use it. The page
 supports conversions in both directions and features a simple responsive
 design for a pleasant experience.
 
+## Running tests
+
+Unit tests for the conversion helpers live in `tests/`. Install
+`pytest` (e.g. `pip install pytest`) and then run:
+
+```bash
+pytest
+```
+
+from the project root to execute the suite.
+
 ## GitHub Guide
 
 Alongside the converter apps, the folder `github-guide/` provides a short
